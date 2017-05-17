@@ -6,7 +6,7 @@ from symbol import except_clause
 
 targetPath = "D:\\projects\\images"
 #分页信息
-page = 91;
+page = 1;
 # 网址  
 baseurl = "http://so.ku6.com/search?q=%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C" 
 headers = {  
@@ -68,7 +68,7 @@ while True:
         print('此url查询内容为NULL，将结束查询:'+url)
         break
     searchContents(imgTaglist)
-    searchVedio(aTaglist)
+    #searchVedio(aTaglist)
     page+=1
 
 
