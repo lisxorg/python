@@ -5,13 +5,6 @@ import fileInfo
 class mysqlConnection:
     
     def __init__(self):
-        #生产主机链接
-        # self.connection = pymysql.connect(host='rds6p6482p21s5lt5y80.mysql.rds.aliyuncs.com',
-        #                         user='huanfeng',
-        #                         password='huanfeng_2015',
-        #                         db='pay',
-        #                         charset='utf8',
-        #                         cursorclass=pymysql.cursors.DictCursor)
         #本地链接
         self.connection = pymysql.connect(host='127.0.0.1',
                                 user='huanfeng',
