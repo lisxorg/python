@@ -19,6 +19,7 @@ class FileInfo:
         +',fileClass:'+self.fileClass+ ",fileImg:" + self.fileImg+ ",fileSize:" +self.fileSize
         return msg
 
+#测试方法
 if __name__ == '__main__':
     shanghai=FileInfo('shanghai','23','man','1','2','3','4','5','6')
     print(shanghai)
