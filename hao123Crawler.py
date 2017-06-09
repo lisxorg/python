@@ -36,7 +36,7 @@ def downAndSave(src,allPath):
         else:
             urllib.urlretrieve('http:'+src,allPath)
     except Exception as e:
-        print("文件下载发生错误："+str(e))
+        print("文件下载发生错误："+str(e)) 
     
     print("文件下载完成："+allPath)
     
