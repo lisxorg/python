@@ -6,7 +6,8 @@
 myeclipse（已经安装python插件）。
 
 3.需要的第三方支持：
-BeautifulSoup，需要注意的是如果jdk是7.x，BeautifulSoup需要4.0以下，因为4.0以上的需要jdk8。
+BeautifulSoup4.0
+
 
 
 
