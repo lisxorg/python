@@ -20,7 +20,7 @@ class mysqlConnection:
                                 charset='utf8',
                                 cursorclass=pymysql.cursors.DictCursor)
         
-    #获取链接，需要关闭链接
+    #获取链接，需要关闭链接 
     def getConnection(self):
         return self.connection
     
